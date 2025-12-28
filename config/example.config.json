@@ -1,0 +1,32 @@
+{
+  "rpc": {
+    "rpcUrl": "https://mainnet.helius-rpc.com/?api-key=YOUR_KEY",
+    "wsUrl": "wss://mainnet.helius-rpc.com/?api-key=YOUR_KEY"
+  },
+  "mode": "paper",
+  "wallet": {
+    "secretKey": "BASE58_SECRET_KEY_OR_NULL"
+  },
+  "telegram": {
+    "botToken": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chatId": "YOUR_CHAT_ID"
+  },
+  "trade": {
+    "buySizeSol": 0.2,
+    "maxOpenPositions": 3
+  },
+  "filters": {
+    "minLiquiditySol": 20,
+    "maxMarketCapAtLaunch": 500000,
+    "smartWalletScoreMin": 65
+  },
+  "risk": {
+    "tp1Pct": 35,
+    "tp1PartialPct": 40,
+    "stopLossPct": 25,
+    "timeStopMinutes": 30,
+    "trailActivatePct": 50,
+    "trailDrawDownPct": 15,
+    "maxDailyLossPct": 15
+  }
+}
